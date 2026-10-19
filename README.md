@@ -13,12 +13,12 @@ mostly crop prices and river water in thailand.
 
 ### stuff i made
 
+- **[smart leaf ai](https://github.com/spneoarm/smart-leaf-ai)** · snap a potato or tomato leaf, get the disease. 93.7% test accuracy · [try it](https://smart-leaf-ai-j3iislqqio8qgaoft7adbk.streamlit.app/)  
+  `pytorch` `resnet18` `streamlit`
 - **cropcast** · daily prices + forecasts for 129 thai crops. six models, the best one per crop wins the backtest  
   `typescript` `python` `fastapi` `supabase`
 - **river level forecasting** · water levels and flood risk across eight regions of thailand, from official RID data  
   `r` `time series`
-- **smart leaf ai** · snap a potato or tomato leaf, get the disease. resnet18 + transfer learning  
-  `pytorch` `streamlit`
 - **scalp tracker** · a mobile app to track scalp health over time  
   `react native` `expo`
 - **claude critter** · my AI coding sessions, live on the macbook touch bar  
