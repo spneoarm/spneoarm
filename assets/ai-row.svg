@@ -1,34 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1506" height="108" viewBox="0 0 1506 108" role="img" aria-label="AI tools: Claude, Codex, Gemini, Grok CLI, and Antigravity CLI">
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="108" viewBox="0 0 1204 108" role="img" aria-label="AI tools: Claude, Codex, Grok CLI, and Antigravity CLI">
   <g font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">
     <g>
       <rect x="6" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
       <rect x="0" y="8" width="286" height="84" rx="18" fill="#c6ff3d"/>
       <text x="22" y="44" font-size="20" font-weight="700" fill="#0a0a0a">claude</text>
-      <text x="22" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">plans and a second pass</text>
+      <text x="22" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">planning, writing, review</text>
     </g>
     <g>
       <rect x="308" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
       <rect x="302" y="8" width="286" height="84" rx="18" fill="#ff5ca8"/>
       <text x="324" y="44" font-size="20" font-weight="700" fill="#0a0a0a">codex</text>
-      <text x="324" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">one task, then a patch</text>
+      <text x="324" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">a defined code change</text>
     </g>
     <g>
       <rect x="610" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
-      <rect x="604" y="8" width="286" height="84" rx="18" fill="#7aa2ff"/>
-      <text x="626" y="44" font-size="20" font-weight="700" fill="#0a0a0a">gemini</text>
-      <text x="626" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">research, another opinion</text>
+      <rect x="604" y="8" width="286" height="84" rx="18" fill="#f4f4f0"/>
+      <text x="626" y="44" font-size="20" font-weight="700" fill="#0a0a0a">grok cli</text>
+      <text x="626" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">terminal, web, and X</text>
     </g>
     <g>
       <rect x="912" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
-      <rect x="906" y="8" width="286" height="84" rx="18" fill="#f4f4f0"/>
-      <text x="928" y="44" font-size="20" font-weight="700" fill="#0a0a0a">grok cli</text>
-      <text x="928" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">terminal, web, and x</text>
-    </g>
-    <g>
-      <rect x="1214" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
-      <rect x="1208" y="8" width="286" height="84" rx="18" fill="#ff9f1c"/>
-      <text x="1226" y="44" font-size="18" font-weight="700" fill="#0a0a0a">antigravity cli</text>
-      <text x="1226" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">plan mode, or the edit</text>
+      <rect x="906" y="8" width="286" height="84" rx="18" fill="#ff9f1c"/>
+      <text x="924" y="44" font-size="18" font-weight="700" fill="#0a0a0a">antigravity cli</text>
+      <text x="924" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">planning or direct edits</text>
     </g>
   </g>
 </svg>

@@ -1,23 +1,22 @@
-<img src="assets/banner.svg" alt="supanut. crop prices, river levels, and apps from thailand. codes with claude, codex, gemini, grok cli, and antigravity cli." width="100%">
+<img src="assets/banner.svg" alt="supanut. crop prices, river levels, and apps from thailand. codes with claude, codex, grok cli, and antigravity cli." width="100%">
 
 ### hi, i'm supanut
 
 i take messy public data, forecast it, and ship it as an app people actually use.
 mostly crop prices and river water in thailand.
 
-i do not keep one favorite AI. five of them stay open, and the job picks the tool.
+i use four AI tools. each one has a defined role.
 
-<img src="assets/ai-row.svg" alt="claude for plans and a second pass, codex for one clear patch, gemini for research, grok cli for the terminal, the web, and x, antigravity cli for plan mode or the edit." width="100%">
+<img src="assets/ai-row.svg" alt="claude for planning, writing, and review. codex for a defined code change. grok cli for the terminal, the web, and X. antigravity cli for planning or a direct edit." width="100%">
 
-| tool | where it sits in the work |
+| tool | role |
 | --- | --- |
-| **claude** | the long plan, the careful draft, and a second pass on the words |
-| **codex** | one clear task, then the patch |
-| **gemini** | the wide read, the research, and the other opinion |
-| **grok cli** | the terminal, a fresh web page, and posts on x |
-| **antigravity cli** | another coding agent, in plan mode or straight on the edit |
+| **claude** | planning, careful writing, and review |
+| **codex** | a defined task, delivered as a code change |
+| **grok cli** | terminal work, current web pages, and posts on X |
+| **antigravity cli** | planning, or a direct edit in the terminal |
 
-**claude critter** and **codex critter** watch those sessions from the macbook menu bar and touch bar.
+**claude critter** and **codex critter** show those sessions on the macbook menu bar and touch bar.
 
 ### rn
 
