@@ -4,19 +4,19 @@
       <rect x="6" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
       <rect x="0" y="8" width="286" height="84" rx="18" fill="#c6ff3d"/>
       <text x="22" y="44" font-size="20" font-weight="700" fill="#0a0a0a">claude</text>
-      <text x="22" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">plans and careful review</text>
+      <text x="22" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">plans and a second pass</text>
     </g>
     <g>
       <rect x="310" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
       <rect x="304" y="8" width="286" height="84" rx="18" fill="#ff5ca8"/>
       <text x="326" y="44" font-size="20" font-weight="700" fill="#0a0a0a">codex</text>
-      <text x="326" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">fast patches</text>
+      <text x="326" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">one task, then a patch</text>
     </g>
     <g>
       <rect x="614" y="14" width="286" height="84" rx="18" fill="#000" fill-opacity="0.45"/>
       <rect x="608" y="8" width="286" height="84" rx="18" fill="#7aa2ff"/>
       <text x="630" y="44" font-size="20" font-weight="700" fill="#0a0a0a">gemini</text>
-      <text x="630" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">research and a second look</text>
+      <text x="630" y="70" font-size="15" fill="#0a0a0a" fill-opacity="0.72">research, another opinion</text>
     </g>
     <g>
       <rect x="918" y="14" width="276" height="84" rx="18" fill="#000" fill-opacity="0.45"/>

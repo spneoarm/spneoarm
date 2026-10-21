@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="supanut. data, forecasts and apps, made in thailand. codes with claude, codex, gemini, and grok cli." width="100%">
+<img src="assets/banner.svg" alt="supanut. crop prices, river levels, and apps from thailand. codes with claude, codex, gemini, and grok cli." width="100%">
 
 ### hi, i'm supanut
 
@@ -7,38 +7,40 @@ mostly crop prices and river water in thailand.
 
 i do not keep one favorite AI. four of them stay open, and the job picks the tool.
 
-<img src="assets/ai-row.svg" alt="claude for plans and review, codex for fast patches, gemini for research, grok cli for the terminal, the web, and x." width="100%">
+<img src="assets/ai-row.svg" alt="claude for plans and a second pass, codex for one clear patch, gemini for research, grok cli for the terminal, the web, and x." width="100%">
 
 | tool | where it sits in the work |
 | --- | --- |
-| **claude** | long plans, careful writing, and a second pass on the words |
-| **codex** | a clear task, turned into a patch |
-| **gemini** | a wide look, research, and another opinion |
-| **grok cli** | coding in the terminal, fresh web pages, and posts on x |
+| **claude** | the long plan, the careful draft, and a second pass on the words |
+| **codex** | one clear task, then the patch |
+| **gemini** | the wide read, the research, and the other opinion |
+| **grok cli** | the terminal, a fresh web page, and posts on x |
 
-the macbook touch bar already watches live **claude** and **codex** sessions.
+**claude critter** and **codex critter** watch those sessions from the macbook menu bar and touch bar.
 
 ### rn
 
-- shipping **cropcast**, so thai farmers can see where crop prices are going before they sell
-- writing a paper on forecasting river levels. yes, in R
-- making my touch bar do things apple never asked for
+- **[cropcast](https://cropcast.space)** is live. thai farmers can check the price, and a forecast, before they sell
+- writing a paper on river levels across eight regions of thailand, from official RID data. yes, in R
+- two small mac apps sit on the touch bar: one for claude, one for codex
 
 ### stuff i made
 
 - **[smart leaf ai](https://github.com/spneoarm/smart-leaf-ai)** · snap a potato or tomato leaf, get the disease. 93.7% test accuracy · [try it](https://smart-leaf-ai-j3iislqqio8qgaoft7adbk.streamlit.app/)  
   `pytorch` `resnet18` `streamlit`
-- **cropcast** · daily prices + forecasts for 129 thai crops. six models, the best one per crop wins the backtest  
+- **[cropcast](https://cropcast.space)** · daily prices and forecasts for 129 thai crops. six models, and the best one per crop wins the backtest  
   `typescript` `python` `fastapi` `supabase`
 - **river level forecasting** · water levels and flood risk across eight regions of thailand, from official RID data  
   `r` `time series`
-- **scalp tracker** · a mobile app to track scalp health over time  
+- **scalp tracker** · a phone app to track scalp health over time  
   `react native` `expo`
-- **claude critter** · my AI coding sessions, live on the macbook touch bar  
+- **claude critter** · claude code sessions, live on the menu bar and the touch bar  
+  `swift` `macos`
+- **codex critter** · a mint robot for codex sessions, on the menu bar and the touch bar  
   `swift` `macos`
 
 ### tools i reach for
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,ts,react,tailwind,supabase,postgres,swift&perline=11" alt="python, pytorch, scikit-learn, r, fastapi, typescript, react, tailwind, supabase, postgres, swift" height="40">
+<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,ts,expo,react,tailwind,supabase,postgres,swift&perline=12" alt="python, pytorch, scikit-learn, r, fastapi, typescript, expo, react, tailwind, supabase, postgres, swift" height="40">
 
 <sub>bio says vibe-coder pro max. the commit history agrees.</sub>
