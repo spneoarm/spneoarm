@@ -1,9 +1,22 @@
-<img src="assets/banner.svg" alt="supanut. data, forecasts and apps, made in thailand." width="100%">
+<img src="assets/banner.svg" alt="supanut. data, forecasts and apps, made in thailand. codes with claude, codex, gemini, and grok cli." width="100%">
 
 ### hi, i'm supanut
 
 i take messy public data, forecast it, and ship it as an app people actually use.
 mostly crop prices and river water in thailand.
+
+i do not keep one favorite AI. four of them stay open, and the job picks the tool.
+
+<img src="assets/ai-row.svg" alt="claude for plans and review, codex for fast patches, gemini for research, grok cli for the terminal, the web, and x." width="100%">
+
+| tool | where it sits in the work |
+| --- | --- |
+| **claude** | long plans, careful writing, and a second pass on the words |
+| **codex** | a clear task, turned into a patch |
+| **gemini** | a wide look, research, and another opinion |
+| **grok cli** | coding in the terminal, fresh web pages, and posts on x |
+
+the macbook touch bar already watches live **claude** and **codex** sessions.
 
 ### rn
 
