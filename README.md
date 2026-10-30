@@ -1,41 +1,45 @@
-<img src="assets/banner.svg" alt="supanut. crop prices, river levels, and apps from thailand. codes with Claude Code, Codex CLI, Grok Build, and Antigravity CLI." width="100%">
+<img src="assets/banner.svg" alt="Supanut Eiamoon. Crop prices, river levels, and apps from Thailand." width="100%">
 
-### hi, i'm supanut
+I am **Supanut Eiamoon**, a developer in Thailand.
 
-i turn public data from thailand into a forecast, then into an app.
-mostly crop prices and river levels.
-a forecast here is an estimate. it is not a promise.
+I take public data, turn it into a forecast, then ship it as an app. Most of my work is crop prices and river levels.
 
-<img src="assets/px-work.svg" alt="pixel art of a crop price chart, a river gauge, a leaf in a scan frame, and two original figures on a touch bar." width="100%">
+A forecast here is an estimate. It is not a promise.
 
-### work you can open
+<img src="assets/px-work.svg" alt="Four scenes of my work: crop prices, river levels, a leaf check, and Mac apps." width="100%">
 
-- **[CropCast](https://cropcast.space)** · live daily prices and a forecast for 129 thai crops. six models run. the one that wins the backtest is the one shown  
-  `typescript` `python` `fastapi` `supabase`
-- **river levels** · water level and flood risk across eight regions, from official RID data. the paper is in R  
-  `r` `time series`
-- **[Smart Leaf AI](https://github.com/spneoarm/smart-leaf-ai)** · a photo of a potato or tomato leaf comes back with a disease. 93.7% on the test set · [try it](https://smart-leaf-ai-j3iislqqio8qgaoft7adbk.streamlit.app/)  
-  `pytorch` `resnet18` `streamlit`
-- **Claude Critter** and **Codex Critter** · session status for Claude Code and Codex CLI, on the menu bar and the touch bar. personal mac apps  
-  `swift` `macos`
-- **scalp tracker** · a phone app that records scalp health over time  
-  `react native` `expo`
+## You can open these
 
-### how i use AI
+**[CropCast](https://cropcast.space)** — Live daily prices and a forecast for 129 Thai crops. Six models run. Each crop shows the model that did best on past data.  
+`TypeScript` `Python` `FastAPI` `Supabase`
 
-i use four tools. each one has a defined role.
+**[Smart Leaf AI](https://github.com/spneoarm/smart-leaf-ai)** — Upload a photo of a potato or tomato leaf and get the disease. 93.7% accuracy on the test set. [Live demo](https://smart-leaf-ai-j3iislqqio8qgaoft7adbk.streamlit.app/)  
+`PyTorch` `ResNet18` `Streamlit`
 
-<img src="assets/ai-row.svg" alt="Claude Code for planning, writing, and review. Codex CLI for a defined code change. Grok Build for the terminal, the web, and X. Antigravity CLI for planning or a direct edit." width="100%">
+## Also building
 
-| tool | role |
+**River levels** — Water level and flood risk across eight regions of Thailand, from official RID data. The analysis is in R.  
+`R` `time series`
+
+**Claude Critter** and **Codex Critter** — Menu bar and Touch Bar apps that show my coding sessions on a Mac. Personal tools.  
+`Swift` `macOS`
+
+**Scalp tracker** — A phone app that records scalp health over time. Personal project.  
+`React Native` `Expo`
+
+## How I use AI
+
+I use four tools. Each one has a clear job.
+
+| Tool | Job |
 | --- | --- |
-| **Claude Code** | planning, careful writing, and review |
-| **Codex CLI** | a defined task, delivered as a code change |
-| **Grok Build** | terminal work, current web pages, and posts on X |
-| **Antigravity CLI** | planning, or a direct edit in the terminal |
+| **Claude Code** | Planning, careful writing, and review |
+| **Codex CLI** | A defined task, delivered as a code change |
+| **Grok Build** | Terminal work, current web pages, and posts on X |
+| **Antigravity CLI** | Planning, or a direct edit in the terminal |
 
-### tools i reach for
+## Tools
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,ts,expo,react,tailwind,supabase,postgres,swift&perline=12" alt="python, pytorch, scikit-learn, r, fastapi, typescript, expo, react, tailwind, supabase, postgres, swift" height="40">
+<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,ts,expo,react,tailwind,supabase,postgres,swift&perline=12" alt="Python, PyTorch, scikit-learn, R, FastAPI, TypeScript, Expo, React, Tailwind, Supabase, Postgres, Swift" height="40">
 
-<sub>bio says vibe-coder pro max. the commit history agrees.</sub>
+I use AI coding tools every day. I still read the diff before it ships.
