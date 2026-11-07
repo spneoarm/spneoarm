@@ -1,45 +1,30 @@
-<img src="assets/banner.svg" alt="Supanut Eiamoon. Crop prices, river levels, and apps from Thailand." width="100%">
+<img src="assets/banner.svg" alt="Supanut Eiamoon, a vibe coder in Thailand. Builds with Claude Code, Codex CLI, Grok Build, and Antigravity CLI." width="100%">
 
-I am **Supanut Eiamoon**, a developer in Thailand.
+I am **Supanut Eiamoon**, a vibe coder in Thailand.
 
-I take public data, turn it into a forecast, then ship it as an app. Most of my work is crop prices and river levels.
+I build software with AI coding agents. I set the goal and the plan. The agents write the code. I check every change before it ships.
 
-A forecast here is an estimate. It is not a promise.
+## My AI team
 
-<img src="assets/px-work.svg" alt="Four scenes of my work: crop prices, river levels, a leaf check, and Mac apps." width="100%">
+<img src="assets/ai-row.svg" alt="Claude Code: planning, writing, review. Codex CLI: a defined code change. Grok Build: terminal, web, and X. Antigravity CLI: planning or direct edits." width="100%">
 
-## You can open these
+Each agent has one clear job, so the work does not overlap.
 
-**[CropCast](https://cropcast.space)** — Live daily prices and a forecast for 129 Thai crops. Six models run. Each crop shows the model that did best on past data.  
-`TypeScript` `Python` `FastAPI` `Supabase`
+## How I ship
 
-**[Smart Leaf AI](https://github.com/spneoarm/smart-leaf-ai)** — Upload a photo of a potato or tomato leaf and get the disease. 93.7% accuracy on the test set. [Live demo](https://smart-leaf-ai-j3iislqqio8qgaoft7adbk.streamlit.app/)  
-`PyTorch` `ResNet18` `Streamlit`
+1. **Plan** — I write the goal and the steps before any code.
+2. **Build** — An agent makes one small change at a time, on its own branch.
+3. **Check** — Tests, typecheck and lint run. CI runs the heavy tests.
+4. **Review** — I read the diff, and a second agent reviews it.
+5. **Ship** — The change goes up as a draft pull request. It merges only when I say so.
 
-## Also building
+## Around the agents
 
-**River levels** — Water level and flood risk across eight regions of Thailand, from official RID data. The analysis is in R.  
-`R` `time series`
+`MCP servers` give the agents real tools: **Supabase**, **Playwright**, **Claude in Chrome**, **Sentry**, **Context7**.  
+`Skills` give them a method: **Superpowers** for planning, test-first work, and code review.
 
-**Claude Critter** and **Codex Critter** — Menu bar and Touch Bar apps that show my coding sessions on a Mac. Personal tools.  
-`Swift` `macOS`
+## Stack my agents build in
 
-**Scalp tracker** — A phone app that records scalp health over time. Personal project.  
-`React Native` `Expo`
+<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,ts,react,expo,tailwind,supabase,postgres,swift,git,github&perline=14" alt="Python, PyTorch, scikit-learn, R, FastAPI, TypeScript, React, Expo, Tailwind, Supabase, Postgres, Swift, Git, GitHub" height="40">
 
-## How I use AI
-
-I use four tools. Each one has a clear job.
-
-| Tool | Job |
-| --- | --- |
-| **Claude Code** | Planning, careful writing, and review |
-| **Codex CLI** | A defined task, delivered as a code change |
-| **Grok Build** | Terminal work, current web pages, and posts on X |
-| **Antigravity CLI** | Planning, or a direct edit in the terminal |
-
-## Tools
-
-<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,r,fastapi,ts,expo,react,tailwind,supabase,postgres,swift&perline=12" alt="Python, PyTorch, scikit-learn, R, FastAPI, TypeScript, Expo, React, Tailwind, Supabase, Postgres, Swift" height="40">
-
-I use AI coding tools every day. I still read the diff before it ships.
+AI writes the code. I own the result.
