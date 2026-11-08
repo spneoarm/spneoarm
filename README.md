@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Supanut Eiamoon, a vibe coder in Thailand. Builds with Claude Code, Codex CLI, Grok Build, and Antigravity CLI." width="100%">
+<img src="assets/banner.svg" alt="A pixel terminal. Supanut, vibe coder in Thailand. AI writes, I review. The ship script runs plan, build, check and review, each OK, then ship." width="100%">
 
 I am **Supanut Eiamoon**, a vibe coder in Thailand.
 
