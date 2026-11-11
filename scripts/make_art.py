@@ -27,8 +27,8 @@ def banner():
     window(c, 6, 78, "~/SPNEOARM  ZSH")
     c.text("> WHOAMI", 16, 20, D)
     c.text("SUPANUT", 16, 31, L, 3, shadow=(D, 1))
-    c.text("VIBE CODER / THAILAND", 16, 58, M)
-    c.text("AI WRITES. I REVIEW.", 16, 70, D)
+    c.text("SOFTWARE / THAILAND", 16, 58, M)
+    c.text("I READ THE DIFF.", 16, 70, D)
     for y in range(20, 79, 3):
         c.rect(176, y, 1, 2, D)
 
@@ -45,7 +45,7 @@ def banner():
         f".ok{i}{{animation:r{i} 8s step-end infinite}}"
         f"@keyframes r{i}{{0%{{opacity:1}}3%{{opacity:0}}{8 + i * 12}%{{opacity:1}}}}"
         for i in range(1, 5))
-    return c.svg("Supanut, vibe coder in Thailand. Ship script: plan, build, check, review, ship.", css, scanlines(c))
+    return c.svg("Supanut, Thailand. Agents write the code. He reads the diff. Ship script: plan, build, check, review, ship.", css, scanlines(c))
 
 
 def agents():
@@ -53,14 +53,41 @@ def agents():
     window(c, 2, 72, "~/SPNEOARM  AGENTS")
     c.text("4", 20, 28, L, 4, shadow=(D, 1))
     c.text("AI AGENTS", 64, 30, L, 2)
-    c.text("ONE JOB EACH", 64, 50, M)
+    c.text("I READ THE DIFF", 64, 50, M)
     for i in range(4):
         c.rect(250 + i * 12, 40, 5, 5, L, c.layer(f"led{i + 1}"))
     css = "".join(f".led{i}{{animation:blink 2s step-end infinite;animation-delay:-{i * 0.5}s}}" for i in range(1, 5))
     css += "@keyframes blink{0%{opacity:1}50%{opacity:.35}}"
-    return c.svg("Four AI agents. Each one has one job.", css, scanlines(c))
+    return c.svg("Four AI agents. The owner reads every diff.", css, scanlines(c))
 
 
-for path, svg in [("assets/banner.svg", banner()), ("assets/ai-row.svg", agents())]:
+def work():
+    c = Canvas(320, 112)
+    window(c, 4, 104, "~/SPNEOARM  WORK")
+    rows = [
+        (18, "CROPCAST", "LIVE", "129 CROPS, 6 MODELS"),
+        (46, "RIVER LEVELS", "PAPER", "8 REGIONS, RID DATA"),
+        (74, "LEAF MODEL", "93.7 PCT", "POTATO AND TOMATO"),
+    ]
+    for y, name, status, detail in rows:
+        c.text(name, 16, y, L)
+        c.text(status, 188, y, M)
+        c.text(detail, 16, y + 10, D)
+    # A small rising chart beside the live app. It is the forecast, drawn as pixels.
+    for i, h in enumerate([3, 5, 4, 8]):
+        c.rect(292 + i * 5, 26 - h, 3, h, L)
+    return c.svg(
+        "Selected work: CropCast is live, a river paper covers eight regions, "
+        "and a leaf model scores 93.7 percent on the test set.",
+        "",
+        scanlines(c),
+    )
+
+
+for path, svg in [
+    ("assets/banner.svg", banner()),
+    ("assets/ai-row.svg", agents()),
+    ("assets/work.svg", work()),
+]:
     with open(path, "w") as f:
         f.write(svg)
