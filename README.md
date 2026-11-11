@@ -4,11 +4,11 @@ I am **Supanut Eiamoon**, a vibe coder in Thailand.
 
 I build software with AI coding agents. I set the goal and the plan. The agents write the code. I check every change before it ships.
 
-## My AI team
+## Four AI agents
 
-<img src="assets/ai-row.svg" alt="Claude Code: planning, writing, review. Codex CLI: a defined code change. Grok Build: terminal, web, and X. Antigravity CLI: planning or direct edits." width="100%">
+<img src="assets/ai-row.svg" alt="Four AI agents. Each one has one job." width="100%">
 
-Each agent has one clear job, so the work does not overlap.
+I use four AI agents. Each one has one job, so the work does not overlap.
 
 ## How I ship
 
@@ -20,7 +20,7 @@ Each agent has one clear job, so the work does not overlap.
 
 ## Around the agents
 
-`MCP servers` give the agents real tools: **Supabase**, **Playwright**, **Claude in Chrome**, **Sentry**, **Context7**.  
+`MCP servers` give the agents real tools: **Supabase**, **Playwright**, **a browser**, **Sentry**, **Context7**.  
 `Skills` give them a method: **Superpowers** for planning, test-first work, and code review.
 
 ## Stack my agents build in

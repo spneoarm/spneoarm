@@ -3,12 +3,6 @@ from pixel import Canvas
 
 B, F, D, M, L = "#0b0d08", "#161c0a", "#5f7a1f", "#8fbf2a", "#c6ff3d"
 BLINK = ".blink{animation:blink 1s step-end infinite}@keyframes blink{0%{opacity:1}50%{opacity:0}}"
-AGENTS = [
-    ("CLAUDE CODE", "PLANNING, WRITING, REVIEW", "#c6ff3d"),
-    ("CODEX CLI", "A DEFINED CODE CHANGE", "#ff5ca8"),
-    ("GROK BUILD", "TERMINAL, WEB, AND X", "#f4f4f0"),
-    ("ANTIGRAVITY CLI", "PLANNING OR DIRECT EDITS", "#ff9f1c"),
-]
 
 
 def scanlines(c):
@@ -57,21 +51,14 @@ def banner():
 def agents():
     c = Canvas(320, 76)
     window(c, 2, 72, "~/SPNEOARM  AGENTS")
-    c.text("AGENT", 16, 16, D)
-    c.text("JOB", 112, 16, D)
-    c.text("STATUS", 268, 16, D)
-    for x in range(16, 304, 3):
-        c.rect(x, 25, 2, 1, D)
-    for i, (name, job, col) in enumerate(AGENTS):
-        y = 30 + i * 11
-        c.text(name, 16, y, L)
-        c.text(job, 112, y, M)
-        c.rect(268, y + 2, 3, 3, col, c.layer(f"led{i + 1}"))
-        c.text("READY", 274, y, L)
+    c.text("4", 20, 28, L, 4, shadow=(D, 1))
+    c.text("AI AGENTS", 64, 30, L, 2)
+    c.text("ONE JOB EACH", 64, 50, M)
+    for i in range(4):
+        c.rect(250 + i * 12, 40, 5, 5, L, c.layer(f"led{i + 1}"))
     css = "".join(f".led{i}{{animation:blink 2s step-end infinite;animation-delay:-{i * 0.5}s}}" for i in range(1, 5))
     css += "@keyframes blink{0%{opacity:1}50%{opacity:.35}}"
-    return c.svg("Claude Code: planning, writing, review. Codex CLI: a defined code change. "
-                 "Grok Build: terminal, web, and X. Antigravity CLI: planning or direct edits.", css, scanlines(c))
+    return c.svg("Four AI agents. Each one has one job.", css, scanlines(c))
 
 
 for path, svg in [("assets/banner.svg", banner()), ("assets/ai-row.svg", agents())]:
