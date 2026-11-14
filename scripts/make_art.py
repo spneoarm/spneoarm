@@ -45,7 +45,7 @@ def banner():
         f".ok{i}{{animation:r{i} 8s step-end infinite}}"
         f"@keyframes r{i}{{0%{{opacity:1}}3%{{opacity:0}}{8 + i * 12}%{{opacity:1}}}}"
         for i in range(1, 5))
-    return c.svg("Supanut, Thailand. Agents write the code. He reads the diff. Ship script: plan, build, check, review, ship.", css, scanlines(c))
+    return c.svg("Supanut, Thailand. Agents write the code. I read the diff. Ship script: plan, build, check, review, ship.", css, scanlines(c))
 
 
 def agents():
@@ -53,29 +53,29 @@ def agents():
     window(c, 2, 72, "~/SPNEOARM  AGENTS")
     c.text("4", 20, 28, L, 4, shadow=(D, 1))
     c.text("AI AGENTS", 64, 30, L, 2)
-    c.text("I READ THE DIFF", 64, 50, M)
+    c.text("ONE JOB EACH. NONE MERGE.", 64, 50, M)
     for i in range(4):
         c.rect(250 + i * 12, 40, 5, 5, L, c.layer(f"led{i + 1}"))
     css = "".join(f".led{i}{{animation:blink 2s step-end infinite;animation-delay:-{i * 0.5}s}}" for i in range(1, 5))
     css += "@keyframes blink{0%{opacity:1}50%{opacity:.35}}"
-    return c.svg("Four AI agents. The owner reads every diff.", css, scanlines(c))
+    return c.svg("Four AI agents. One job each. None of them merge.", css, scanlines(c))
 
 
 def work():
-    c = Canvas(320, 112)
-    window(c, 4, 104, "~/SPNEOARM  WORK")
+    c = Canvas(320, 105)
+    window(c, 4, 97, "~/SPNEOARM  WORK")
     rows = [
-        (18, "CROPCAST", "LIVE", "129 CROPS, 6 MODELS"),
-        (46, "RIVER LEVELS", "PAPER", "8 REGIONS, RID DATA"),
-        (74, "LEAF MODEL", "93.7 PCT", "POTATO AND TOMATO"),
+        (20, "CROPCAST", "LIVE", "129 CROPS, 6 MODELS"),
+        (48, "RIVER LEVELS", "PAPER", "8 REGIONS, RID DATA"),
+        (76, "LEAF MODEL", "93.7%", "POTATO AND TOMATO"),
     ]
     for y, name, status, detail in rows:
         c.text(name, 16, y, L)
         c.text(status, 188, y, M)
         c.text(detail, 16, y + 10, D)
-    # A small rising chart beside the live app. It is the forecast, drawn as pixels.
-    for i, h in enumerate([3, 5, 4, 8]):
-        c.rect(292 + i * 5, 26 - h, 3, h, L)
+    # A small rising chart right after LIVE. It is the forecast, drawn as pixels.
+    for i, h in enumerate([3, 5, 4, 7]):
+        c.rect(217 + i * 5, 27 - h, 3, h, L)
     return c.svg(
         "Selected work: CropCast is live, a river paper covers eight regions, "
         "and a leaf model scores 93.7 percent on the test set.",
